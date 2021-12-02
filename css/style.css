@@ -1,4 +1,4 @@
-/*  Tag Selectors */
+/* Tag Selectors */
 body {
   background-color: #334756;
   color: #F4EEE8;
@@ -23,7 +23,10 @@ h3 {
   color: #FF4C29;
 }
 
-/*  Tag Selectors */
+/* Class Selectors */
+.picture {
+  background-color: #FF4c29;
+}
 .circular {
-  border-radius:  100%;
+  border-radius: 100%;
 }
