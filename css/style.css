@@ -1,8 +1,8 @@
+/*  Tag Selectors */
 body {
   background-color: #334756;
   color: #F4EEE8;
 }
-
 hr {
   border-style: none;
   border-top-style: solid;
@@ -10,19 +10,20 @@ hr {
   border-width: 1px;
   width: 100%;
 }
-
 a:visited {
   color: #B2AB8C;
 }
-
 th {
   background-color: #334756;
 }
-
 h1 {
   color: #FF4C29;
 }
-
 h3 {
   color: #FF4C29;
+}
+
+/*  Tag Selectors */
+.circular {
+  border-radius:  100%;
 }
