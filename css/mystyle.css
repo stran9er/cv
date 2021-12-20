@@ -19,9 +19,11 @@ a:visited {
 
 /* Class Selectors */
 .profile-pic {
-  width: 100px;
-  height: 100px;
+  width: 59px;
+  height: 59px;
   border-radius: 100%;
+  float: right;
+  margin-right: 15%;
 }
 
 /* Navigation Bar */
