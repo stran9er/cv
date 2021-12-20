@@ -2,47 +2,86 @@
 body {
   margin: 0;
   background-color: #99A799;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Roboto Slab', monospace;
   color: #32502E;
+  font-size: 17px;
 }
-h1 {
-    margin-top:  0;
-    font-family: 'Roboto Slab', serif;
-    color: #F2DDC1;
-}
-a {
-  outline: none;
-  text-decoration: none;
-  text-transform: lowercase;
-}
-a:link{
-  color: #32502E;
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 24px;
 
+h1 {
+  margin-top: 0;
+  font-family: 'Roboto Slab', serif;
+  color: #F2DDC1;
 }
-a:hover{
-  text-decoration: underline;
-  text-transform: capitalize;
-  background: #F9F3DF;
-}
-a:visited{
+
+a:visited {
   color: #32502E;
 }
-td {
-  margin-left: 75%;
-}
+
 /* Class Selectors */
-.header-text{
-  width: 100%;
-  display: inline-block;
-  border: 10px;
-}
-.link-spacer{
-  padding: 5px;
-}
-.profile-pic{
+.profile-pic {
   width: 100px;
   height: 100px;
   border-radius: 100%;
+}
+
+/* Navigation Bar */
+.nav-bar {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.nav-bar a {
+  float: left;
+  color: #32502E;
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.nav-bar a:hover {
+  text-decoration: underline;
+  text-transform: lowercase;
+  background: #99A799;
+}
+
+.nav-bar .active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Page Contents*/
+.main-container {
+  position: relative;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+/*Page Footer*/
+.bottom-container {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.bottom-container a {
+  float: left;
+  color: #32502E;
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 14px 16px;
+}
+
+.bottom-container a:hover {
+  text-decoration: underline;
+  text-transform: lowercase;
+  background: #99A799;
 }
