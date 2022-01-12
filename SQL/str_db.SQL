@@ -1,0 +1,13 @@
+CREATE TABLE visitors (
+  id INT AUTO_INCREMEMENT PRIMARY KEY,
+  username VARCHAR(255) UNIQUE NOT NULL DEFAULT 'USER',
+  );
+
+CREATE TABLE comments (
+  id INT AUTO_INCREMEMENT PRIMARY KEY,
+  comment_txt VARCHAR(255) NOT NULL,
+  dt_created TIMESTAMP DEFAULT NOW(),
+  user_id INT NOT NULL,
+  FOREIGN KEY (user_id) REFERENCES visitors (id)
+  );
+  
